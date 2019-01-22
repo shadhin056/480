@@ -1,0 +1,17 @@
+
+2nd Mid syllabus :
+-Database
+-PHP
+-File
+-Session
+-Image upload in php
+
+Lab test
+Date:17/07/17(Monday)
+Mini Project submission
+Date :18/07/17(Tuesday)
+
+Student should bring project report which contain 
+Project Name:
+and 
+feature list of his/her projects .

@@ -1,0 +1,63 @@
+@media all { 
+
+/* =The above @media rule hides this stylesheet from the 
+discontinued Microsoft Internet Explorer for Mac. */
+
+/* =body */
+body { background : #f7d8e8; }
+
+/* =h1 */
+h1 { background : url(../images/branding_h1.gif) no-repeat; }
+
+/* =h2 */
+h2#fir_1 { background : url(../images/fir_1.gif) no-repeat; }
+
+/* =h3 */
+h3#fir_2 { background : url(../images/fir_2.gif) no-repeat; }
+h3#fir_3 { background : url(../images/fir_3.gif) no-repeat; }
+h3#fir_4 { background : url(../images/fir_4.gif) no-repeat; }
+h3#fir_5 { background : url(../images/fir_5.gif) no-repeat; }
+h3#fir_6 { background : url(../images/fir_6.gif) no-repeat; }
+
+/* =ul */
+ul#nav_main { background : url(../images/ul_nav_main.jpg); }
+ul#nav_experts { background : url(../images/ul_nav_experts.jpg); }
+div#nav_current ul { background : url(../images/ul_nav_current.jpg); }
+div#content_sub ul { background : url(../images/ul.gif) no-repeat 0 100%; }
+
+/* =ol */
+div#content_sub ol { background : url(../images/ul.gif) no-repeat 0 100%; }
+
+/* =li */
+li#nm_1 { background : url(../images/li_nav_main.jpg) no-repeat 0 0; }
+li#nm_2 { background : url(../images/li_nav_main.jpg) no-repeat -100px 0; }
+li#nm_3 { background : url(../images/li_nav_main.jpg) no-repeat -200px 0; }
+li#nm_1 a:hover { background : url(../images/li_nav_main.jpg) no-repeat 0 -37px; }
+li#nm_2 a:hover { background : url(../images/li_nav_main.jpg) no-repeat -100px -37px; }
+li#nm_3 a:hover { background : url(../images/li_nav_main.jpg) no-repeat -200px -37px; }
+
+li#nc_1 { background : url(../images/nc_1.gif) no-repeat; }
+li#nc_2 { background : url(../images/nc_2.gif) no-repeat; }
+li#nc_3 { background : url(../images/nc_3.gif) no-repeat; }
+
+/* =p */
+div#branding p { z-index : 1; position : absolute; right : 0; top : -50px; width: 345px; height : 215px; margin : 0; padding : 0; background : url(../images/branding_p.jpg) no-repeat; text-indent : -9999px; }
+p#si_1 { background-image : url(../images/si_1.gif); }
+p#si_2 { background-image : url(../images/si_2.gif); }
+
+/* =p */
+div#content_sub li a { padding-left : 20px; background : url(../images/li.gif) no-repeat 0 50%; }
+ul#nav_recent a { padding-left : 20px; background : url(../images/li.gif) no-repeat 0 50%; }
+
+/* =blockquote */
+div#branding blockquote { background : url(../images/branding_blockquote.gif) no-repeat; }
+
+/* =form */
+form#search_input { background : url(../images/search_input.gif) no-repeat 0 100%; }
+
+div#branding { background : url(../images/branding.jpg) no-repeat; }
+div#content_main { background : #fff; }
+div#content_sub { background : #ffeff7; }
+div#site_info { background : #fff url(../images/site_info.jpg) repeat-x; }
+
+}

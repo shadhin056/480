@@ -1,0 +1,218 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<style>
+button.button1 {
+   background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+}
+
+button.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+button{
+	margin:5px;
+	
+	width:80%;
+	font-size:16px;
+	}
+input[type=text]:focus {
+	border: 3px solid #555;
+	border-radius: 5px;
+}
+input[type=email]:focus {
+	border: 3px solid #555;
+}
+input[type=text ] {
+	width: 100%;
+	border-radius: 10px;
+	
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: solid black;
+	background-color: #3CBC8D;
+	color: white;
+}
+input[type=email ] {
+	width: 100%;
+	border-radius: 10px;
+	
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: solid black;
+	background-color: #3CBC8D;
+	color: white;
+}
+a:link, a:visited {
+	background-color: #616161;
+	color: white;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 15px;
+}
+a:hover, a:active {
+	background-color: black;
+}
+div.container {
+	margin-left: 13%;
+	margin-right: 13%;
+	border: 1px solid gray;
+	text-align: center;
+	height: 100%;
+	border-radius: 15px;
+	background-color: #FFFFFF;
+}
+div.DIvinside {
+	margin-left: 2%;
+	margin-right: 2%;
+}
+header {
+	padding-bottom: 1px;
+	padding-top: 1px;
+}
+body {
+	background-color: black;
+}
+nav.nav1 {
+	float: left;
+	padding: 2px;
+	border-style: double;
+	max-width: 20%;
+}
+nav.nav2 {
+	float: right;
+	padding: 2px;
+	border-style: double;
+	max-width: 25%;
+	height: 100%;
+	background:white;
+}
+nav.navhead {
+	border: 2px;
+	border-radius: 15px;
+	border-style: double;
+	margin: 5px;
+	padding: 15px;
+	background-color: #4CAF50;
+	text-align: left;
+}
+article {
+	padding: 1px;
+	overflow: hidden;
+}
+article.article1 {
+	background-color: #FAC9FF;
+	overflow: hidden;
+	margin: 5px;
+	padding: 5px;
+	border-radius: 15px;
+}
+article.article2 {
+	background-color: #C6CFF7;
+	overflow: hidden;
+	padding: 5px;
+	margin: 5px;
+	border-radius: 15px;
+}
+footer {
+	padding: 10px;
+	color: white;
+	background-color: #3B5998;
+	text-align: center;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <header> <img src="c.png" alt="ShadhiN" style="width:100%;height:200px;border-radius: 50px;"> </header>
+  <nav class="navhead">
+    <ul style="display: inline;
+    margin: 1px;">
+      <li style="display: inline;
+    margin: 1px; "><a class="menu" href="3.html" style="background-color:#000000">Welcome</a></li>
+      <li style="display: inline;
+    margin: 1px;"><a class="menu"  href="resume.html"   >Resume</a></li>
+      <li style="display: inline;
+    margin: 1px;"><a class="menu"  href="Outside_The_Classroom.html"   >Outside The Classroom</a></li>
+      <li style="display: inline;
+    margin: 1px;"><a  class="menu" href="Course_Work.html"  >Course Work</a></li>
+      <li style="display: inline;
+    margin: 1px;"><a class="menu"  href="Goal_and_Outcomes.html"   >Goal and Outcomes</a></li>
+      <li style="display: inline;
+    margin: 1px;"><a class="menu"  href="Contact.html"  >Contact</a></li>
+    </ul>
+  </nav>
+  <div class="DIvinside">
+    <nav class="nav1">
+    <div>
+    <img src="d.png" width="100%">
+      </div>
+      <div style="border:2px solid black; margin:5px;color:#F8EEEE; background-color:black">
+      <p><b>Categories</b></p>
+      </div>
+      <a href="http://www.w3schools.com/html/" target="_blank">HTML tutorial</a> </nav>
+    <nav class="nav2">
+    <div style="  margin:2px;color:#000000; border:solid">
+    <form action="Contact.html">
+    <input style="width:80%; margin:5px ;padding:2px" type="submit" value="Register"></form>
+    
+   
+    </form>
+    <form action="Contact.html">
+    
+    <input style="width:80%; margin:5px ;padding:2px" type="submit" value="Login"></form>
+   
+    </form>
+      
+      </div>
+      <div style="text-align:left;  margin:2px;color:#000000; border:solid">
+      <p style="font-size:18px;border-radius: 5px;background-color:Black ; padding:5px ;color:white;text-align:left;"><b>Contact Form</b></p>
+      <form action="Contact.html">
+        <label style="border-radius: 5px;border:2px solid ;padding:2px" for="fname">First Name</label>
+        <input type="text" id="fname" name="fname" >
+        <label style="border-radius: 5px;border:2px solid ;padding:2px"for="lname">Email</label>
+        <input type="email" id="femail" name="femail">
+        <label style="border-radius: 5px;border:2px solid ;padding:2px"for="lname">Message</label>
+        <input type="text" id="fname" name="fname" >
+        <div style="text-align:center;">
+        <input style="width:80%; margin:5px ;padding:2px" type="button" value="Send" onclick="myFunction()">
+        <script>
+function myFunction() {
+    alert("Hello! Email has send");
+}
+</script>
+        
+        </form>
+        </div>
+      </form>
+      
+      </div>
+    </nav>
+    <article>
+      <article class="article1">
+        <h1>Welcome to my ePortfolio</h1>
+        <p style="text-align:left">Hey, I'm Shadhin and welcome to my ePortfolio. In my ePortfolio you'll find my goals both short and long term, course work, my life outside the classroom, and you'll be able to view my resume. Enjoy getting to know me. Contact me at anytime.</p>
+      </article>
+      <article class="article2">
+        <h1>About Me</h1>
+        <p style="text-align:left">My name is Moniruzzaman shadhin. I was born in Bangladesh, and grew up in Dhaka.I Grew up in a low income single parent household. On the education side, this is my 4th year at east west University.</p>
+      </article>
+      <article class="article1">
+        <h1>Favorite Quotes</h1>
+        <p style="text-align:left">Always bear in mind that your own resolution to succeed is more important than
+          any other thing</p>
+      </article>
+    </article>
+  </div>
+  <footer style="float: inherit">Copyright 2017 &copy; ShadhiN</footer>
+</div>
+</body>
+</html>

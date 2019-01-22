@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML Frames</title>  <!-- frames are used to divide your browser window into multiple sections where each section can load a separate HTML document-->
+</head>
+<frameset rows="10%,80%,10%">
+   <frame name="top" src="header.html" />
+   <frame name="main" src="info.html" />
+   <frame name="bottom" src="footer.html" />
+   <noframes>    <!-- <noframes> tag is used to handle the browsers which do not support <frame> tag. This tag is used to display alternate text message. -->
+   <body>
+      Your browser does not support frames.
+   </body>
+   </noframes>
+</frameset>
+</html>

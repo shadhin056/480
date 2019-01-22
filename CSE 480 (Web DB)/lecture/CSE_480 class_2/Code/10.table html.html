@@ -1,0 +1,82 @@
+<!doctype html>
+ 
+<html>
+ 
+<head> </head>
+ 
+<body>
+ 
+<table border="1">  <!-- Define single Border in table. -->
+ 
+<tr>                          
+  <th> The Planets </th>      <!-- Table heading can be defined using <th> tag -->
+  <th> The Oceans </th>
+  <th> The Deserts </th>
+</tr>
+ 
+<tr>                         <!-- <tr> tag is used to create table rows <td> tag is used to create data cells  -->
+  <td> Earth </td>
+  <td> Pacific </td>
+  <td> Sahara </td>
+</tr>
+ 
+<tr>
+  <td> Pluto </td>
+  <td> Atlantic </td>
+  <td> Gobi </td>
+</tr>
+</table>
+ 
+<br><br><br><br>
+ 
+ <!-- two attribiutes called cellpadding and cellspacing which you will use to adjust the white space in your table cells. 
+ The cellspacing attribute defines the width of the border, while cellpadding represents the distance between cell borders and the content within a cell.-->
+ 
+<table border="1" cellpadding="1" cellspacing="30">
+<tr>
+<th>Name</th>
+<th>Salary</th>
+</tr>
+<tr>
+<td>Ramesh Raman</td>
+<td>5000</td>
+</tr>
+<tr>
+<td>Shabbir Hussein</td>
+<td>7000</td>
+</tr>
+</table>
+ <br><br><br><br>
+ 
+  <!-- colspan attribute if you want to merge two or more columns into a single column. 
+ Similar way you will use rowspan if you want to merge two or more rows. -->
+ 
+<table border="1" bordercolor="green" bgcolor="yellow">
+<tr>
+<th bgcolor="red">Column 1</th>                             <!-- set background of cell using "bgcolor" -->
+<th>Column 2</th>
+<th>Column 3</th>
+</tr>
+
+<tr>
+<td rowspan="2">Row 1 Cell 1</td>
+<td>Row 1 Cell 2</td>
+<td>Row 1 Cell 3</td>
+</tr>
+
+<tr>                    <!-- because of rowspan=2 there has 2 rows define instead of 3 -->
+<td>Row 2 Cell 2</td>
+<td>Row 2 Cell 3</td>
+</tr>
+
+<tr  height="200">                     <!-- because of colspan=3 there has no column define instead of 3 -->
+<td align="center" colspan="3" background = "Image.jpg">  <!-- set background image for whole table or just for one cell using "background" commad-->
+Row 3 Cell 1
+</td>
+</tr>
+</table>
+</body>
+ 
+ 
+ 
+</html>

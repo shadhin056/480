@@ -1,0 +1,59 @@
+@media all { 
+
+/* =The above @media rule hides this stylesheet from the 
+discontinued Microsoft Internet Explorer for Mac. */
+
+/* =universals 
+These rules are applied to all elements unless otherwise specified below. */
+* { margin : 0; padding : 0; }
+h1, h2, h3, blockquote, p, ul, ol  { margin : 0 20px; padding : .5em 0; }
+
+/* =html */
+html { background-color : #fff;  color : #000; }
+
+/* =body */
+body { font : 76%/160% Tahoma, Verdana, Arial, sans-serif; text-align : center; }
+
+/* =h1 */
+h1 { font-size : 180%; }
+
+/* =h2 */
+h2 { font-size : 160%; }
+
+/* =h3 */
+h3 { font-size : 140%; }
+
+/* =ul =ol */
+ul { list-style-type : disc; list-style-position : inside; }
+ol { list-style-position : inside; }
+ul#nav_main { position : absolute; top : 10em; padding : 0; }
+
+/* =li */
+ul#nav_main li { display : inline; }
+
+/* =p */
+form p, blockquote p { margin : 0; }
+
+/* =a */
+a:link, a:visited { color : #000; text-decoration : underline; }
+
+/* =form */
+form { padding : 0 20px; }
+
+/* =label/labelspan */
+label { margin-bottom : .5em; font-weight : bold; }
+label, label span { display : block; margin-bottom : .5em; }
+
+/* =input */
+input { width : 90%; padding : 1px; font : 100% Tahoma, Verdana, Arial, sans-serif; }
+input#submit { width : auto; padding : 0 .25em; }
+
+div#container { position : relative; width : 780px; margin : 0 auto; text-align : left; }
+div#branding { z-index : 1; position : relative; width : 100%; height : 12em; }
+div#content { width : 100%; overflow : hidden; }
+div#content_main { float : right; width : 540px; }
+div#nav_current { position : relative; }
+div#content_sub { float : left; width : 240px; }
+div#site_info { width : 100%; }
+
+}

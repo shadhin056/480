@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<header>
+   <img src="logo.jpg" title="Image of Ice Land" alt="Image failed to load" width="800px">
+</header>
+  
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="Registration.html">Registration Form</a></li>
+    <li><a href="Contact.html">Contact Us</a></li>
+  </ul>
+</nav>
+
+<article>
+  <form action="" method="">
+  <label for="firstname">First Name:</label>
+<input type="text" id="firstname" name=""> <br> <br>
+ 
+<label for="lastname">Last Name:</label>
+<input type="text" id="lastname" name=""> <br> <br>
+ 
+<br>
+<label for="Password">Password:</label>
+<input type="password" name="password" /> <br><br>
+Gender: <br>
+<input type="radio" name="yesorno" value="">  Male <br>
+<input type="radio" name="yesorno" value=""> Female <br>
+
+<br><br>
+
+Which subjects are you interested in? <br>
+ 
+<input type="checkbox" name="" checked="checked"> Football <br>
+ 
+<input type="checkbox" name=""> Basketball <br>
+ 
+<input type="checkbox" name=""> Baseball <br>
+ 
+<input type="checkbox" name=""> Hockey
+ 
+<br><br>
+
+Age: 
+<input type="number" min="0" max="50">
+<br><br>
+<label for="Division">Division:</label>
+<select>
+<option value="Dhaka">Dhaka</option>
+<option value="Sylhet">Sylhet</option>
+<option value="Rajshahi">Rajshahi</option>
+ 
+</select>
+<br><br>
+
+<fieldset>
+ 
+  <legend> Travel Information </legend>
+ Travel Date: <input type="date" name="day">
+ Number of days: <input type="number" name="numdays" min="1" max="10">
+ <br><br>
+ Contact: <input type="text">
+ 
+</fieldset>
+
+<br><br>
+<input type="file" name="fileupload" accept="image/*" />  
+<br><br>
+
+Comments:<br>
+
+<textarea rows="10" cols="80"></textarea></br>
+<input type="submit" value="Submit">
+ 
+</form>
+</article>
+
+<footer>Copyright &copy; East-West University, 2016. All Rights Reserved.</footer>
+
+</div>
+
+</body>
+</html>
